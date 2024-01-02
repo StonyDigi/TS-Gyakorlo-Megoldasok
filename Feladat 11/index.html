@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euró Átváltó</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Feladat 11 - Euró Átváltó</h1>
+        <!-- Input mezők az adatok bekéréséhez -->
+        <label for="arfolyam">Euró árfolyama (1 € hány Ft):</label>
+        <input type="number" id="arfolyam" class="form-control mb-2" placeholder="Adja meg az Euró árfolyamát">
+
+        <label for="atvaltandoEuro">Átváltandó Euró mennyisége:</label>
+        <input type="number" id="atvaltandoEuro" class="form-control mb-2" placeholder="Adja meg az átváltandó Euró mennyiségét">
+
+        <!-- Gomb a számítás elindításához -->
+        <button onclick="szamolAtvaltast()" class="btn btn-primary">Átváltás</button>
+
+        <!-- Az eredmény megjelenítése -->
+        <p id="atvaltottFt" class="mt-3"></p>
+    </div>
+    <script src="szamolAtvaltast.js"></script>
+</body>
+</html>

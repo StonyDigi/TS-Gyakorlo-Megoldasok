@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz-tétel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Feladat 9 - Pitagorasz-tétel</h1>
+        <!-- Input mezők a befogók megadásához -->
+        <label for="befogo1">Első befogó:</label>
+        <input type="number" id="befogo1" class="form-control mb-2" placeholder="Adja meg az első befogót">
+
+        <label for="befogo2">Második befogó:</label>
+        <input type="number" id="befogo2" class="form-control mb-2" placeholder="Adja meg a második befogót">
+
+        <!-- Gomb a számítás elindításához -->
+        <button onclick="szamolAtfogot()" class="btn btn-primary">Számolás</button>
+
+        <!-- Az átfogó megjelenítése -->
+        <p id="atfogo" class="mt-3"></p>
+    </div>
+    <script src="szamolAtfogot.js"></script>
+</body>
+</html>

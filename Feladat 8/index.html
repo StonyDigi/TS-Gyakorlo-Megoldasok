@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magánhangzók Százaléka</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Feladat 8 - Magánhangzók Százaléka</h1>
+        <!-- Input mező a szöveg megadásához -->
+        <label for="szoveg">Szöveg:</label>
+        <textarea id="szoveg" class="form-control mb-2" placeholder="Adja meg a szöveget"></textarea>
+
+        <!-- Gomb a számítás elindításához -->
+        <button onclick="szamolMaganhangzoSzazalekEsKiir()" class="btn btn-primary">Számolás</button>
+
+        <!-- Az eredmény megjelenítése -->
+        <p id="eredmeny" class="mt-3"></p>
+    </div>
+    <script src="szamolMaganhangzoSzazalek.js"></script>
+</body>
+</html>
