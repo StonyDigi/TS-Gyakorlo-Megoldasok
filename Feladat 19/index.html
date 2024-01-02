@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pénztáros Jutalom Kalkulátor</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Feladat 19 - Pénztáros Jutalom Kalkulátor</h1>
+
+        <div class="form-group">
+            <label for="napiBevetelInput">Add meg a napi bevételt:</label>
+            <input type="number" class="form-control" id="napiBevetelInput" placeholder="Pl.: 100000">
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="szamolJutalom()">Kalkuláció</button>
+
+        <div class="mt-3" id="jutalomEredmeny"></div>
+    </div>
+
+    <script src="szamolJutalom.js"></script>
+</body>
+</html>
